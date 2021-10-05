@@ -1,8 +1,11 @@
 // import functions and grab DOM elements
 import { answers } from './answers.js';
 
+const resetButton = document.getElementById('reset-button');
 const button = document.getElementById('button');
 const answerSpan = document.getElementById('answer-span');
+let userInput = document.getElementById('user-input');
+
 // initialize global state
 
 // set event listeners 
@@ -20,7 +23,15 @@ button.addEventListener('click', () => {
 
 });
 
+resetButton.addEventListener('click', () => {
+  
+    button.disabled = false;
 
+    answerSpan.textContent = '';
+
+    userInput.value = '';    
+  
+});
 
   // get user input
   // use user input to update state 
