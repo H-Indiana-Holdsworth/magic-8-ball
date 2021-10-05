@@ -12,6 +12,7 @@ body {
     background-image: url('../assets/8-ball-wallpaper.jpeg');
     background-size:cover;
     font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
 }
 
 button {
@@ -22,17 +23,22 @@ button {
 }
 
 #answer-span {
-    color: white;
+    color: black;
     font-family: 'Permanent Marker', cursive;
+    background-color: rgba(52, 120, 52, .75);
+
 
 }
 
 #user-input {
     opacity: .7;
     font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
 
 }
 
 p {
-    color: white;
+    color: black;
+    background-color: rgba(52, 120, 52, .75);
+
 }
