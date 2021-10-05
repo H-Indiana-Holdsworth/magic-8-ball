@@ -11,18 +11,26 @@ body {
     margin: .75rem;
     background-image: url('../assets/8-ball-wallpaper.jpeg');
     background-size:cover;
+    font-family: 'Permanent Marker', cursive;
 }
 
 button {
     margin: .75rem;
+    border-radius: 2rem;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
 #answer-span {
     color: white;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
 #user-input {
     opacity: .7;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
 p {
