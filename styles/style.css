@@ -1,1 +1,15 @@
+header {
+    margin: .5rem;
+}
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .75rem;
+}
+
+button {
+    margin: .75rem;
+}

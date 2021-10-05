@@ -16,7 +16,10 @@ button.addEventListener('click', () => {
 
     answerSpan.textContent = answers[randomIndex];
 
+    button.disabled = true;
+
 });
+
 
 
   // get user input
