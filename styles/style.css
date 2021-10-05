@@ -1,5 +1,6 @@
 header {
     margin: .5rem;
+    color: white;
 }
 
 
@@ -8,8 +9,22 @@ body {
     flex-direction: column;
     align-items: center;
     margin: .75rem;
+    background-image: url('../assets/8-ball-wallpaper.jpeg');
+    background-size:cover;
 }
 
 button {
     margin: .75rem;
+}
+
+#answer-span {
+    color: white;
+}
+
+#user-input {
+    opacity: .7;
+}
+
+p {
+    color: white;
 }
